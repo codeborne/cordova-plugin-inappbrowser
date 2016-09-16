@@ -40,6 +40,8 @@
 - (void)close:(CDVInvokedUrlCommand*)command;
 - (void)injectScriptCode:(CDVInvokedUrlCommand*)command;
 - (void)show:(CDVInvokedUrlCommand*)command;
+- (void)getCookies:(CDVInvokedUrlCommand*)command;
+- (void)setCookies:(CDVInvokedUrlCommand*)command;
 
 @end
 

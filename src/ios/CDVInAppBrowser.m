@@ -214,6 +214,15 @@
     }
 }
 
+- (void)getCookies:(CDVInvokedUrlCommand*)command
+{
+    return;
+}
+- (void)setCookies:(CDVInvokedUrlCommand*)command
+{
+    return;
+}
+
 - (void)show:(CDVInvokedUrlCommand*)command
 {
     if (self.inAppBrowserViewController == nil) {
