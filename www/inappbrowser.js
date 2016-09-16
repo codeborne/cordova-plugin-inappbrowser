@@ -81,7 +81,7 @@
             } else {
                 throw new Error('insertCSS requires exactly one of code or file to be specified');
             }
-        }
+        },
 
         //Gets cookie by Domain from the inAppWebView and adds it to the cordovaWebView.
         getCookies: function (cookieDetails, cb) {
