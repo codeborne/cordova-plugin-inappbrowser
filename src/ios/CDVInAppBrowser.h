@@ -42,6 +42,7 @@
 - (void)show:(CDVInvokedUrlCommand*)command;
 - (void)getCookies:(CDVInvokedUrlCommand*)command;
 - (void)setCookies:(CDVInvokedUrlCommand*)command;
+- (void)hide:(CDVInvokedUrlCommand*)command;
 
 @end
 
