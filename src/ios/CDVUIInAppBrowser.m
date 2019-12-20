@@ -995,8 +995,8 @@ BOOL viewUIRenderedAtLeastOnce = FALSE;
         CGRect viewBounds = [self.webView bounds];
         CGRect statusBarFrame = [UIApplication sharedApplication].statusBarFrame;
         CGFloat statusBarHeight = statusBarFrame.size.height;
-        viewBounds.origin.y = statusBarHeight;
-        viewBounds.size.height = viewBounds.size.height - statusBarHeight;
+        viewBounds.origin.y = 0;
+        // viewBounds.size.height = viewBounds.size.height;
 
         self.webView.frame = viewBounds;
         [[UIApplication sharedApplication] setStatusBarStyle:[self preferredStatusBarStyle]];
